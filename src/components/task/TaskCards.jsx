@@ -4,9 +4,10 @@ import TaskCard from "./TaskCard";
 
 export const TaskCards = () => {
   return (
-    <div>
+    <div className="taskCardsWrapper">
       <TaskCard />
       <AddTaskCardsButton />
     </div>
   );
 };
+export default TaskCards;
