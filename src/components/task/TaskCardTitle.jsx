@@ -21,10 +21,11 @@ export const TaskCardTitle = () => {
   };
 
   return (
-    <div onClick={handleClick}>
+    <div onClick={handleClick} className="inputTitleAreaWrapper">
       {isClick ? (
         <form onSubmit={handleSubmit}>
           <input
+            className="inputTitleArea"
             autoFocus
             maxLength={20}
             type="text"

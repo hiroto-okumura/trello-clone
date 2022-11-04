@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Arial', sans-serif;
 
 }
 
@@ -32,11 +33,26 @@ header {
   width: 250px;
   padding: 10px 25px;
   margin: 10px 1%;
-  background-color: whitesmoke;
+  background-color: #6ef0ba;
   border-radius: 5px;
 }
 
 .taskCardsWrapper {
   margin: 10px 5%;
   padding: 20px 20px;
+}
+
+.inputTitleAreaWrapper {
+  margin-bottom: 15px;
+  padding: 5px 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.inputTitleArea {
+  width: 100%;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
 }
