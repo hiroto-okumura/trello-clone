@@ -8,14 +8,16 @@ export const TaskCardTitle = () => {
   };
   const handleChenge = (e) => {
     setInputText(e.target.value);
-    console.log(inputText);
+    // console.log(inputText);
   };
 
+  // 入力エンターで再描画しないように
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsClick(false);
   };
 
+  // フォーカス外れた時にIsClickの状態false。入力終了。
   const handleBlur = () => {
     setIsClick(false);
   };

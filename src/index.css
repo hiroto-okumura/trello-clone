@@ -56,3 +56,22 @@ header {
   border: none;
   outline: none;
 }
+
+form {
+  width: 100%;
+  text-align: center;
+}
+
+.taskAddInput {
+  width: 85%;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  padding: 5px 5px;
+  margin: 5%;
+  border-radius: 5px;
+}
+
+.btnTaskDelete {
+  width: 50%;
+}
