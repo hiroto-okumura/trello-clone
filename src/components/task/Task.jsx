@@ -3,9 +3,9 @@ import React from "react";
 export const Task = ({ task }) => {
   return (
     <div className="taskBox">
-      <p className="tasktext">{task.text}</p>
+      <p className="taskText">{task.text}</p>
       <button className="btnTaskDelete">
-        <i class="fa-solid fa-trash-arrow-up"></i>
+        <i class="fa-solid fa-circle-minus fa-lg"></i>
       </button>
     </div>
   );
