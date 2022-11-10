@@ -10,7 +10,7 @@ export const TaskAddInput = ({
     e.preventDefault();
     // console.log(e);
     // エンターでタスク追加する時、→setTaskListでtaskListに追加更新
-    setTaskList([...taskList, { text: inputText }]);
+    setTaskList([...taskList, { id: taskList.length, text: inputText }]);
     setInputText("");
   };
 
