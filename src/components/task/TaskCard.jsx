@@ -8,11 +8,11 @@ export const TaskCard = () => {
   const [inputText, setInputText] = useState("");
   const [taskList, setTaskList] = useState([]);
 
-  useEffect(() => {
-    console.log("-------------");
-    console.log(inputText);
-    console.log(...taskList);
-  }, [taskList]);
+  // useEffect(() => {
+  //   console.log("-------------");
+  //   console.log(inputText);
+  //   console.log(...taskList);
+  // }, [taskList]);
 
   return (
     <div className="taskCard">

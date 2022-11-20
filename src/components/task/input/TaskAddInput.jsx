@@ -10,7 +10,15 @@ export const TaskAddInput = ({
     e.preventDefault();
     // console.log(e);
     // エンターでタスク追加する時、→setTaskListでtaskListに追加更新
-    setTaskList([...taskList, { id: taskList.length, text: inputText }]);
+    //draggabliId : DnDがタスクを入れ替えたりするときに各タスクを識別するID
+    setTaskList([
+      ...taskList,
+      {
+        id: taskList.length,
+        draggableId: `task-${taskList.length}`,
+        text: inputText,
+      },
+    ]);
     setInputText("");
   };
 
